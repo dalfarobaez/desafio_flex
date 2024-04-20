@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+  display: flex;
+}
+.contactos{
+  background-color: rgb(255, 84, 84);
+  color: aliceblue;
+  width: 30%;
+  height: 100vh;
+  border-right: 1px solid #000;
+  justify-content: space-evenly;
+}
+.persona{
+  display: flex;
+  padding: 0.5rem 3rem;
+  border-bottom: 1px solid #000;
+  align-items: center;
+}
+.principal{
+  background-color: yellowgreen;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.imagen {
+  width: 40%;
+}
+.texto {
+  text-align: center;
+}
+.texto h1 {
+  color:brown;
+}
+.texto h2 {
+  color: aquamarine;
+}
+.avatar {
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+}
+.avatar_mini {
+  border-radius: 50%;
+  width: 10%;
+  height: 10%;
+}
+.contacto {
+  padding-left: 1rem;
+}
+.activo {
+  display: flex;
+}
+.icono {
+  margin-left: auto;
+}
+.boton {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #000;
+}
+.iconos {
+  margin-left: 1rem;
+}
+.nuevo_chat {
+  padding: 1rem 5rem;
+  background-color: aliceblue;
+
+}
